@@ -1,0 +1,47 @@
+nav {
+	padding: 0 70px;
+}
+
+body {
+	background-image: url("images/vintage-concrete.png");
+}
+
+h1, h2 {
+	margin-top: 80px;
+}
+
+.navbar-brand h1{
+	margin: 0;
+	padding-top: 5px;
+	color: white;
+}
+
+h3 {
+	margin: 0;
+	padding-top: 5px;
+}
+
+.navbar-header {
+	height: 50px;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	padding: 0 15px;
+}
+
+.navbar-brand:hover {
+	background-color: #43876e!important;
+	transition:.33s linear;
+}
+
+.container {
+	background-image: url("../images/vintage-concrete.png")!important;
+}
+
+.wrapper {
+	background-color: white;
+	margin-top: 80px;
+	margin-right: 20px;
+	padding: 20px;
+}
