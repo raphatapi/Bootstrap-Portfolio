@@ -10,23 +10,32 @@ h1, h2, h3 {
 	margin-top: 20px;
 }
 
+aside img {
+	float: left;
+}
+
+.nav li {
+	padding: 10px;
+}
+
 .container-fluid {
-	padding-top: 15px;
+	/*padding-top: 15px;*/
 }
 
 .navbar-brand h1{
 	margin: 0;
-	padding-top: 15px;
+	/*padding-top: 15px;*/
 	color: white;
 }
 
 .navbar-header {
-	height: 60px;
+	height: 70px;
 }
 
 .navbar-brand {
 	background-color: #4aaaa5;
-	padding: 0 15px;
+	padding: 15px;
+	height: 70px;
 }
 
 .navbar-brand:hover {
