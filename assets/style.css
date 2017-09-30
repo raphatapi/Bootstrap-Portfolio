@@ -124,7 +124,7 @@ p {
   font-size: 24px;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 380px) and (max-width: 640px) {
 	.navbar {
 		position: static;
 		padding: 0;
@@ -133,7 +133,7 @@ p {
 	.nav li {
 		width: 30%;
 		display: inline-flex;
-		margin: 0 5px;
+		margin: 0;
 	}
 
 	.nav a {
