@@ -169,8 +169,8 @@ p {
 	}
 
 	.social img {
-		height: auto;
-		width: 100%;
+		height: 55px;
+		width: auto;
 	}
 }
 @media (min-width: 640px) and (max-width: 768px) {
