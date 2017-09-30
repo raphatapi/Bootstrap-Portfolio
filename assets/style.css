@@ -124,14 +124,22 @@ p {
   font-size: 24px;
 }
 
-@media (min-width: 380px) and (max-width: 640px) {
+@media (max-width: 640px) {
+	nav {
+		padding: 0;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
 	.navbar {
 		position: static;
 		padding: 0;
 	}
 
 	.nav li {
-		width: 30%;
+		width: 100%;
 		display: inline-flex;
 		margin: 0;
 	}
@@ -144,6 +152,7 @@ p {
 	.navbar-brand {
 		width: 100%;
 		text-align: center;
+		padding: 15px 0;
 	}
 
 	.wrapper {
@@ -160,8 +169,8 @@ p {
 	}
 
 	.social img {
-		height: 55px;
-		width: 55px;
+		height: auto;
+		width: 100%;
 	}
 }
 @media (min-width: 640px) and (max-width: 768px) {
