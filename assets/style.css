@@ -212,6 +212,10 @@ p {
 		height: 55px;
 		width: 55px;
 	}
+
+	.footer {
+		margin-top: 85px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.navbar {
